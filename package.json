@@ -1,6 +1,6 @@
 {
   "name": "ToastyBot",
-  "description": "This bot will help people".
+  "description": "This bot will help people",
   "verision": "0.0.0",
   "main": "bot.js",
   "scripts": {
