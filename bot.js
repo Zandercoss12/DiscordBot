@@ -29,4 +29,4 @@ setInterval(() => {
 
 const port = process.env.PORT || 5000;
 
-client.login(process.env.BOT_TOKEN);x
+client.login(process.env.BOT_TOKEN);
