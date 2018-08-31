@@ -26,7 +26,8 @@ if(command === "help") {
     .addField("Hello, here are a list of commands." , true)
     .addField("t!comands" , true)
     .setColor(0x00FFFF)
-    
+  message.channel.sendEmbed(embed);
+}
 
 //  /n == New line
 //  you can even do message.channel.sendMessage("```Hello```");
