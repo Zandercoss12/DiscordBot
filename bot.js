@@ -22,7 +22,8 @@ if(command === "info") {
 }
 
 if(command === "help") {
-  message.channel.sendMessage("```diff-\nHello, here is a list of commands.\n```");
+  message.channel.sendMessage("```fix\nHello, here is a list of commands.\n```");
+  message.channel.sendMessage("```diff\n-t!pokemanz\n```")
 
 //  /n == New line
 //  you can even do message.channel.sendMessage("```Hello```");
