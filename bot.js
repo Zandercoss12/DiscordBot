@@ -9,7 +9,6 @@ client.on('ready',() => {
 client.on("message", async message => {
   if(message.author.bot) return;
   if(message.content.indexOf(config.prefix) !== 0) return;
-}
   
 const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
 const command = args.shift().toLowerCase();
@@ -27,10 +26,12 @@ if(command === "pokemanz")
 if(command === "help") {
   message.channel.sendMessage("```fix\nHello, here is a list of commands.\n```");
   message.channel.sendMessage("```diff\n-t!pokemanz\n```")
-}
 
 //  /n == New line
 //  you can even do message.channel.sendMessage("```Hello```");
+}
+
+});
 
 setInterval(() => {
   http.get('http://discordjs-heroku.herokuapp.com');
