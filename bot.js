@@ -22,7 +22,11 @@ if(command === "info") {
 }
 
 if(command === "help") {
-  message.channel.sendMessage("Hello, here are a list of commands.");
+  var embed = new Discord.RichEmbed()
+    .addField("Hello, here are a list of commands." , true)
+    .addField("t!comands" , true)
+    .setColor(0x00FFFF)
+    
 
 //  /n == New line
 //  you can even do message.channel.sendMessage("```Hello```");
