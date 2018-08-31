@@ -24,7 +24,7 @@ if(command === "info") {
 if(command === "help") {
   var embed = new Discord.RichEmbed()
     .addField("Hello, here are a list of commands." , true)
-    .addField("t!comands" , true)
+    .addField("t!commands")
     .setColor(0x00FFFF)
   message.channel.sendEmbed(embed);
 }
