@@ -17,13 +17,13 @@ if(command === "info") {
   var embed = new Discord.RichEmbed()
     .addField("Hello. I am Toastys Bot.", "I help people" , true)
     .addField("Please use me wisely and carefully.", "Thank you for inviting me" , true)
-    .setColor(0x00FFFF)
+    .setColor(0x00FFF)
   message.channel.sendEmbed(embed);
 }
 
 if(command === "pokemanz") {
   var embed = new Discord.RichEmbed()
-    .addField("Your Pokemon", true)
+    .addField("Your Pokemon",)
     .setColor(0x00FFFF)
   message.channel.sendEmbed(embed);
 }
