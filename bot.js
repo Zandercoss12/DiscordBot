@@ -19,11 +19,11 @@ if(command === "info") {
     .addField("Please use me wisely and carefully.", "Thank you for inviting me" , true)
     .setColor(0x00FFFF)
   message.channel.sendEmbed(embed);
-}
+
 
 if(command === "pokemanz") 
 
-if(command === "help") {
+if(command === "help") 
   message.channel.sendMessage("```Hello```");
 
 //  /n == New line
