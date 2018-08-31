@@ -16,7 +16,7 @@ const command = args.shift().toLowerCase();
 if(command === "info") {
   var embed = new Discord.RichEmbed()
     .addField("Hello. I am Toastys Bot.", "I help people" , true)
-    .addField("Please use me wisely and carefully.")
+    .addField("Please use me wisely and carefully.", "Thank you for inviting me" , true)
     .setColor(0x00FFFF)
   message.channel.sendEmbed(embed);
 }
