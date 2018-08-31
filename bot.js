@@ -14,21 +14,19 @@ const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
 const command = args.shift().toLowerCase();
 
 if(command === "info") {
-  var embed = new Discord.RichEmbed()
-    .addField("Hello. I am Toastys Bot.", "I help people" , true)
-    .addField("Please use me wisely and carefully.", "Thank you for inviting me" , true)
-    .setColor(0x00FFFF)
-  message.channel.sendEmbed(embed);
+    var embed = new Discord.RichEmbed()
+      .setThumbnail(message.client.avatarURL)
+      .addField("Hello my name is ToastyCord.", true)
+      .addField("I am developed to help those who cannot help themselves.", true)
+      .addField("Do t!help for more commands.")
+      .addField("Thanks for inviting me and enjoy.")
+      .setColor(0x00FFFF)
+    message.channel.sendEmbed(embed);
+  }
 
-
-if(command === "pokemanz") 
-
-if(command === "help") 
-  message.channel.sendMessage("```Hello```");
 
 //  /n == New line
 //  you can even do message.channel.sendMessage("```Hello```");
-}
 
 });
 
