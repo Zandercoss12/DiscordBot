@@ -21,6 +21,14 @@ if(command === "info") {
   message.channel.sendEmbed(embed);
 }
 
+if(command === "pokemanz") {
+  var embed = new Discord.RichEmbed()
+    .addField("Your Pokemon", true)
+    .setColor(0x00FFFF)
+  message.channel.sendEmbed(embed);
+}
+
+
 if(command === "help") {
   message.channel.sendMessage("```fix\nHello, here is a list of commands.\n```");
   message.channel.sendMessage("```diff\n-t!pokemanz\n```")
