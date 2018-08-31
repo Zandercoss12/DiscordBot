@@ -1,6 +1,6 @@
 { 
-  "name": "ToastysBot",
-  "description": "Test",
+  "name": "ToastyCord",
+  "description": "A useful bot",
   "version": "1.0.0",
   "main": "bot.js",
   "engines": {
