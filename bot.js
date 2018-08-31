@@ -16,7 +16,7 @@ const command = args.shift().toLowerCase();
 if(command === "info") {
   var embed = new Discord.RichEmbed()
     .addField("Why am I here?!", "I want to leave!" , true)
-    .addField("End my life",)
+    .addField("End my life")
     .setColor(0x00FFFF)
   message.channel.sendEmbed(embed);
 }
