@@ -14,7 +14,7 @@ const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
 const command = args.shift().toLowerCase();
 
 if(command === "info") {
-  var embes = new Discord.RichEmbed()
+  var embed = new Discord.RichEmbed()
     .addField("Why am I here?!", "I want to leave!" , true)
     .addField("End my life",)
     .setColor(0x00FFFF)
