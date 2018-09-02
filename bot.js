@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const config = require("./config.json");
 
 client.on('ready',() => {
-  client.user.setPresence({game: {name: "t!help for commands!", type:0}});
+  client.user.setPresence({game: {name: "In maintenance mode!!!", type:0}});
   });
   
 client.on("message", async message => {
