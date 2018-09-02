@@ -16,7 +16,7 @@ const command = args.shift().toLowerCase();
 if(command === "info") {
     var embed = new Discord.RichEmbed()
       .setThumbnail(message.client.avatarURL)
-      .addField("Hello my name is ToastyCord.",)
+      .addField("Hello my name is ToastyCord.", true)
       .addField("I am developed to help those who cannot help themselves.",)
       .addField("Do t!help for more commands.")
       .addField("Thanks for inviting me and enjoy.")
