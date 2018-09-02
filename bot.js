@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const config = require("./config.json");
 
 client.on('ready',() => {
-  client.user.setPresence({game: {name: "In maintenance mode!!!", type:1}});
+  client.user.setPresence({game: {name: "In maintenance mode!!!", type: "streaming"}});
   });
   
 client.on("message", async message => {
